@@ -5,5 +5,5 @@ import { persistStore } from "redux-persist";
 
 const middleWare = [logger];
 
-export const store = createStore(rootReducer, applyMiddleware(middleWare));
+export const store = createStore(rootReducer, applyMiddleware(...middleWare));
 export const persistor = persistStore(store);
