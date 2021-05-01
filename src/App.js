@@ -13,7 +13,8 @@ import {
 } from "./components/firebase/firebase.utils";
 import { createStructuredSelector } from "reselect";
 import { selectCurrentUser } from "./redux/user/user.selector";
-import  Checkout  from "./pages/checkout/checkout.component";
+import Checkout from "./pages/checkout/checkout.component";
+import Contact from "./pages/Contact/contact.component";
 
 class App extends React.Component {
   UnsubscribefromAuth = null;
@@ -45,8 +46,8 @@ class App extends React.Component {
           <Switch>
             <Route exact path="/" component={Homepage} />
             <Route path="/shop" component={ShopPage} />
+            <Route path="/contact" component={Contact} />
             <Route exact path="/checkout" component={Checkout} />
-
             <Route
               exact
               path="/signin"

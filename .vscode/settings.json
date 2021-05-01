@@ -1,4 +1,5 @@
 {
     "editor.fontLigatures": true,
-    "editor.fontFamily": "Operator mono lig, 'Courier New', monospace"
+    "editor.fontFamily": "Operator mono lig, 'Courier New', monospace",
+    "liveServer.settings.port": 5501
 }
