@@ -1,19 +1,13 @@
-import React,{Component} from "react";
+import React from "react";
 import "./contact.styles.scss";
 
-class Contact extends Component {
-  constructor(){
-    super();
-    this.state ={
 
-    }
-  }
-  render() {
-    return (
-      <div className="contact">
-        <span>Contact ME </span>
-      </div>
-    )
-  }
-}
+const Contact = () => {
+  return (
+    <div className="contact">
+      <h1>Contact</h1>
+    </div>
+  );
+};
+
 export default Contact;
