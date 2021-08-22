@@ -5,6 +5,7 @@
   height: 350px;
   align-items: center;
   position: relative;
+  
 
   .image {
     width: 100%;
@@ -20,6 +21,7 @@
     position: absolute;
     top: 255px;
     display: none;
+    
   }
 
   &:hover {

@@ -16,7 +16,7 @@ const StripeCheckoutButton = ({ price }) => {
       name="CROWN CLOTHING"
       shippingAddress
       billingAddress
-      image="https://svgsahre.com/i/CUz.svg"
+      image="https://sendeyo.com/en/f3eb2117da"
       description={`Your total is $${price}`}
       amount={priceForStripe}
       panelLabel="Pay Now"
